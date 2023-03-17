@@ -1,0 +1,74 @@
+body {
+  background-color: red; }
+
+section.index {
+  display: flex;
+  /* line-height: 600px; */
+  justify-content: space-around;
+  align-items: center; }
+  section.index a {
+    text-decoration: none;
+    color: #fff; }
+    section.index a:hover {
+      text-decoration: none;
+      color: #fff; }
+
+section.index button {
+  background-color: #00f;
+  color: #fff;
+  border: none;
+  padding: 13px 27px;
+  border-radius: 6px;
+  text-transform: capitalize;
+  cursor: pointer; }
+
+section.sim {
+  justify-content: center;
+  align-items: center;
+  display: flex; }
+  section.sim .input {
+    width: 100%; }
+  section.sim label {
+    display: block;
+    text-align: center;
+    font-size: 32px;
+    text-transform: capitalize; }
+  section.sim button {
+    display: block;
+    margin: auto;
+    cursor: pointer; }
+  section.sim input {
+    margin: 20px auto;
+    width: 300px;
+    display: block; }
+
+section.finalsim {
+  padding: 20px; }
+  section.finalsim h2 {
+    text-align: center;
+    text-shadow: 1px 1px 10px #fff;
+    font-size: 39px; }
+  section.finalsim .subject {
+    overflow: hidden;
+    width: 100%;
+    padding: 21px; }
+    section.finalsim .subject h3 {
+      float: left;
+      width: 70%;
+      margin: 0;
+      padding: 0;
+      font-size: 31px; }
+    section.finalsim .subject button {
+      background-color: indianred;
+      border: navajowhite;
+      padding: 5px 40px;
+      border-radius: 4px;
+      cursor: pointer; }
+
+.div, section.index, section.sim, section.finalsim {
+  background: rgba(0, 0, 0, 0.4);
+  width: 50vw;
+  margin: 50px auto;
+  min-height: 600px; }
+
+/*# sourceMappingURL=style.css.map */
